@@ -72,7 +72,7 @@ def checkNumber(randomNumber , playerNumber):
          print("Tu gagnier , Bravo !")
          print("1 - Rejouer  ")
          print("0 - Sortir ")
-         choice = int(raw_input("Choix : "))
+         choice = int(input("Choix : "))
          os.system('cls' if os.name == 'nt' else 'clear')
          loading()
          startGame(choice)
@@ -90,7 +90,7 @@ os.system('cls' if os.name == 'nt' else 'clear')
 gameName()
 print("1 - Commencer le jeu  ")
 print("0 - Sortir ")
-choice = int(raw_input("Choix : "))
+choice = int(input("Choix : "))
 startGame(choice)
 
 
